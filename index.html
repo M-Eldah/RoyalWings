@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="prefetch" href="img/Aswan.webp" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="HeroContainer" style="height: 100vh; width: 100%; position: relative; overflow: hidden;">
+        <img style="position: absolute; height: 100%; width: 100%;object-fit: cover; z-index: -10;"
+            src="img/wind-land-extreme-sport-terrain-aerial-view-map-1262184-pxhere.com.jpg"></imh>
+        <div
+            style="position: absolute; height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.633); z-index: -9;">
+        </div>
+        <div class="d-flex align-items-center justify-content-center "
+            style="height: 100vh;position: relative; top: -120px;">
+            <img class="Logo" style="width: 50%;position: absolute; z-index: 1; min-width: 512px;" src="img/LogoSvg.svg"
+                alt>
+            <h1 class="logotext"
+                >
+                Hop on majestic journeys, where every trip is fit for royalty
+            </h1>
+        </div>
+
+    </div>
+    <div style="height: fit-content;position: relative;">
+        <div class="row d-flex justify-content-center m-0" style="height: 100%; width: 100%; color: aliceblue; padding: 10px 0px">
+            <div class="col-lg-6">
+                <div class="row d-flex justify-content-center">
+                    <div class="col d-flex align-items-center justify-content-center flex-column">
+                        <i style="font-size: 64px;" class="fa-solid fa-plane"></i>
+                        <h6>Flight Booking</h6>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center flex-column">
+                        <i style="font-size: 64px;"  class="fa-solid fa-car"></i>
+                        <h6>Limousine</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="row d-flex justify-content-center">
+                    <div class="col d-flex align-items-center justify-content-center flex-column">
+                        <i style="font-size: 64px;"  class="fa-solid fa-map"></i>
+                        <h6>Tour Guides</h6>
+                    </div>
+                    <div class="col d-flex align-items-center justify-content-center flex-column">
+                        <i style="font-size: 64px;"  class="fa-solid fa-location-dot"></i>
+                        <h6>Hotel Reservation</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <nav class="navbar navbar-dark navbar-expand-lg p-0"
+        style="position: sticky; background-color: #303553; top: 0px; z-index: 500;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-family: 'Playfair Display';color: rgb(255, 248, 210);">
+                <img src="img/LogoSvg.svg" alt="Logo" width="70" height="auto" class="d-inline-block align-text-center">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 me-auto " style="padding-left: 10px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="cursor: pointer;" aria-current="page">Royal Wings Travel</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto " style="padding-right: 10px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-linkedin-in"></i></i> Linkdin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-instagram"></i> Instagram</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-facebook"></i> Facebook</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div  class="d-flex align-items-center justify-content-between hvar" style="height: 80vh; width: 100%; position: relative; margin-bottom: 50px;">
+        <div class="bottomGradient" style="height: 120px;"></div>
+        <div class="topGradient" style="height: 120px;"></div>
+        <h1 class="sectionlabel">
+            Our Destinations
+        </h1>
+        <div class="d-flex align-items-center justify-content-between" style="height: fit-content; width: 100%; position: absolute; z-index: 120;">
+            <button class="gallerybutton"  onclick="galleryScroll(-1)">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="gallerybutton"  onclick="galleryScroll(1)">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+        <div id="Gallery" style="overflow-x: scroll;">
+            <div class="d-flex" style="width: fit-content;">
+                <div class="GalleryReel">
+                    <h3>
+                       Aswan 
+                    </h3>
+                    <img src="img/Aswan.webp" >
+                </div>
+                <div class="GalleryReel">
+                    <h3>
+                       Dahab 
+                    </h3>
+                    <img src="img/Dahab.jpg" >
+                </div>
+                <div class="GalleryReel">
+                    <h3>
+                       Nubia 
+                    </h3>
+                    <img src="img/Nubia.jpeg" >
+                </div>
+                <div class="GalleryReel">
+                    <h3>
+                       Hurgada 
+                    </h3>
+                    <img src="img/Hurgada.webp" >
+                </div>
+                <div class="GalleryReel">
+                    <h3>
+                       Sharm El Sheikh 
+                    </h3>
+                    <img src="img/Sharm-El-Sheikh.jpg" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hvar"  style="height: 80vh; width: 100%; position: relative; background-color: #ffefd8b4;overflow: hidden; margin: 50px 0px;">
+        <div class="bottomGradient" style="height: 150px;"></div>
+        <div class="topGradient" style="height: 150px;"></div>
+        <img style="position: absolute; height: 100%; width: 100%;object-fit: cover; z-index: -10;"
+            src="img/2023-06-22t203823z_89291213_rc2ko1avc735_rtrmadp_3_saudi-haj-arrival.jpg"></imh>
+        <div class="hajjsection">
+            <h1 >
+                Hajj and Umrah 
+            </h1>
+            <p class="p-3" >
+                For devout Muslims, the Hajj and Umrah pilgrimages are deeply meaningful spiritual journeys. 
+                The Hajj, a mandatory pilgrimage, is a life-changing experience, as worshippers don the simple white garments of the ihram and trace 
+                the footsteps of the Prophet Muhammad. The Umrah, while not compulsory, offers another cherished opportunity to visit the holy sites of Mecca 
+                and Medina, fostering a profound sense of reverence and connection to the divine. Whether embarking on the Hajj or Umrah, 
+                each pilgrim returns home transformed, their faith renewed and their souls nourished by the experience of a lifetime.
+            </p>
+
+        </div>
+        <img class="hjjimg" src="img/saudi-haj-arrival.png" style="transform: scaleX(1); position: absolute; width: 50%;object-fit: cover;bottom: -10px;right: -10px;">
+    </div>
+    <div class="d-flex flex-column align-items-center">
+        <h1>Leave us a message</h1>
+
+        <form id="contact-form" class="contactForm">
+            <div class="form-row form-error" style="display:none;"></div>
+
+            <div class="d-none">
+                <label for="contact-form-type">type:</label><br>
+                <input id="contact-form-type" class="form-control" type="text" name="type"><br>
+            </div>
+
+            <label for="contact-form-name">Name:</label><br>
+            <input id="contact-form-name" class="form-control" type="text" name="name" placeholder="FullName"
+                required>
+            <br>
+
+            <label for="contact-form-email">Email:</label><br>
+            <input id="contact-form-email" class="form-control" type="email" name="email" placeholder="Email"
+                required><br>
+
+            <label for="contact-form-phone">Phone:</label><br>
+            <input id="contact-form-phone" class="form-control" type="tel" name="phone"
+                placeholder="Phone Number"><br>
+
+            <label for="contact-form-message">Message:</label><br>
+            <textarea id="contact-form-message" class="form-control" name="message" rows='4' placeholder="Message"
+                required></textarea><br>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+</script>
+<script src="Script.js"></script>
+
+</html>

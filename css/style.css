@@ -1,0 +1,177 @@
+body {
+  background-color: #030613;
+}
+
+.navbar {
+  height: 70px;
+  padding: 15px;
+  background-color: #050a21 !important;
+}
+.navbar a {
+  color: hsl(46, 96%, 57%) !important;
+}
+
+tr td {
+  text-align: left;
+  width: 50px;
+}
+tr th {
+  text-align: left;
+  width: 50px;
+}
+
+#Gallery::-webkit-scrollbar {
+  display: none;
+}
+
+#Gallery {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.GalleryReel {
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+}
+.GalleryReel h3 {
+  background: linear-gradient(90deg, rgb(24, 8, 34) 50%, rgba(24, 8, 34, 0.2525385154) 81%, rgba(131, 58, 180, 0) 100%);
+  font-weight: 200;
+  position: absolute;
+  font-size: 72px;
+  bottom: 50px;
+  color: aliceblue;
+  min-width: 450px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 0px 10px;
+}
+.GalleryReel img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contactForm {
+  color: aliceblue;
+  width: 80%;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+.contactForm textarea {
+  font-size: 20px;
+}
+.contactForm input {
+  font-size: 20px;
+  width: 400px;
+  max-width: 80%;
+}
+.contactForm Button {
+  font-size: 20px;
+  width: 200px;
+  border: #31365c 2px solid;
+  background-color: #31365c;
+  color: aliceblue;
+  font-weight: 700;
+}
+.contactForm Button:hover {
+  font-size: 20px;
+  width: 200px;
+  border: #31365c 2px solid;
+  background-color: #31365c;
+  color: aliceblue;
+}
+
+.bottomGradient {
+  background: linear-gradient(to top, #030613 0%, RGB(18, 20, 32, 0.95) 10%, RGB(18, 20, 32, 0.5) 50%, rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  z-index: 10;
+}
+
+.topGradient {
+  background: linear-gradient(to bottom, #030613 0%, RGB(18, 20, 32, 0.95) 10%, RGB(18, 20, 32, 0.5) 50%, rgba(0, 0, 0, 0));
+  position: absolute;
+  top: -2px;
+  width: 100%;
+  z-index: 10;
+}
+
+.logotext {
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  top: 400px;
+  color: #ddcdbc;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.sectionlabel {
+  font-size: 50px;
+  max-width: 100%;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  z-index: 300;
+  color: #ffffff;
+}
+
+.gallerybutton {
+  background-color: transparent;
+  border: transparent;
+  font-size: 72px;
+}
+
+.hajjsection {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  z-index: 11;
+}
+.hajjsection h1 {
+  color: #ffffff;
+  font-size: 50px;
+  max-width: 100%;
+}
+.hajjsection p {
+  width: 100%;
+  max-width: 600px;
+  font-style: oblique;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 600px) {
+  .hvar {
+    height: 100vh !important;
+  }
+  .logotext {
+    top: 400px;
+  }
+  .sectionlabel {
+    font-size: xx-large;
+  }
+  .gallerybutton {
+    font-size: 50px;
+  }
+  .GalleryReel {
+    height: 100vh !important;
+  }
+  .GalleryReel h3 {
+    font-size: 40px;
+    min-width: 200px;
+    max-width: 100% !important;
+  }
+  .hajjsection h1 {
+    font-size: 40px;
+  }
+  .hajjsection p {
+    font-size: 18px;
+    max-height: 400px;
+    overflow-y: scroll;
+  }
+  .hjjimg {
+    width: 65% !important;
+  }
+}/*# sourceMappingURL=style.css.map */

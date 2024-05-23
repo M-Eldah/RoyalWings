@@ -1,0 +1,152 @@
+$primary-color:#050a21;
+$primary-color2:#030613;
+$secondary-color:#EEF0F2;
+$GoldAccentColor:hsl(46, 96%, 57%);
+$OceanBlue:#2892D7;
+body{
+    background-color: $primary-color2;
+}
+.navbar{
+    height: 70px;
+    padding: 15px;
+    background-color: $primary-color  !important;
+    a{
+        color:  $GoldAccentColor  !important;
+    }
+}
+
+
+tr{
+    td{
+        text-align: left;
+        width: 50px;
+    }
+    th{
+        text-align: left;
+        width: 50px;
+    }
+}
+#Gallery::-webkit-scrollbar {
+    display: none;
+}
+#Gallery{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.GalleryReel{
+    width: 100vw; height: 80vh;position: relative;
+    h3{
+        background: linear-gradient(90deg, rgba(24,8,34,1) 50%, rgba(24,8,34,0.25253851540616246) 81%, rgba(131,58,180,0) 100%);
+        font-weight: 200;
+        position: absolute; font-size: 72px; bottom: 50px;color: aliceblue; min-width: 450px; max-width: fit-content; padding: 0px 10px;
+    }
+    img{
+        width: 100%; height: 100%; object-fit: cover;
+    }
+}
+.contactForm{
+    color: aliceblue;
+    width: 80%;
+    font-size: 22px;
+    padding-bottom: 10px;
+    textarea{
+        font-size: 20px;
+    }
+    input{
+        font-size: 20px;
+        width: 400px;
+        max-width: 80%;
+    }
+    Button {
+        font-size: 20px;
+        width: 200px;
+        border: #31365c 2px solid;
+        background-color: #31365c;
+        color: aliceblue ;
+        font-weight: 700;
+    }
+    Button:hover {
+        font-size: 20px;
+        width: 200px;
+        border: #31365c 2px solid;
+        background-color: #31365c;
+        color: aliceblue ;
+    }
+}
+.bottomGradient {
+    background: linear-gradient(to top, #030613 0%, RGB(18, 20, 32, 0.95) 10%,RGB(18,20,32,0.5)50% ,rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 10;
+}
+.topGradient {
+    background: linear-gradient(to bottom, #030613 0%, RGB(18, 20, 32, 0.95) 10%,RGB(18,20,32,0.5)50% ,rgba(0, 0, 0, 0));
+    position: absolute;
+    top: -2px;
+    width: 100%;
+    z-index: 10;
+}
+.logotext{
+    text-align: center; 
+    padding: 10px; 
+    position: relative; 
+    top: 400px; color: #ddcdbc; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 
+}
+.sectionlabel{
+    font-size: 50px; 
+    max-width: 100%; 
+    position: absolute; 
+    top: 50px; left: 0px;
+    z-index: 300; 
+    color: #ffffff;
+}
+.gallerybutton{
+    background-color: transparent; border: transparent;font-size: 72px;
+}
+.hajjsection{
+    position: absolute;top: 50px; width: 100%;z-index: 11;
+    h1{
+        color: #ffffff;
+        font-size: 50px; max-width: 100%;
+    }
+    p{
+        width: 100%; max-width: 600px; font-style: oblique;font-weight: 800;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .hvar{
+        height: 100vh !important;
+    }
+    .logotext {
+        top: 400px;
+    }
+    .sectionlabel{
+        font-size: xx-large;
+    }
+    .gallerybutton{
+        font-size:50px;
+    }
+    .GalleryReel{
+        height: 100vh !important;
+        h3{
+            font-size: 40px;
+            min-width: 200px;
+            max-width: 100% !important;
+        }
+    }
+    .hajjsection{
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size: 18px;
+            max-height: 400px;
+            overflow-y: scroll;
+        }
+    }
+    .hjjimg{
+        width: 65% !important;
+    }
+  }
